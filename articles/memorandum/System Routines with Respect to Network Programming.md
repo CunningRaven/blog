@@ -36,7 +36,7 @@ int getnameinfo(const struct sockaddr *sa, socklen_t salen,
 	// returns: 0 if OK, error number able to be passed to gai_strerror() otherwise.
 ```
 
-***sendmsg/recvmsg**
+**sendmsg/recvmsg**
 
 ```C
 #include <sys/uio.h>
