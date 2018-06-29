@@ -1,5 +1,5 @@
 On the top directory of source tree of Linux kernel, v2.6.30.4:
-'''shell
+```shell
 $ uname -a
 Linux kili-pc 4.14.48-1-MANJARO #1 SMP PREEMPT Tue Jun 5 18:53:59 UTC 2018 x86_64 GNU/Linux
 $ gcc -v
@@ -12,5 +12,5 @@ Thread model: posix
 gcc version 8.1.0 (GCC)
 $ make menuconfig # use default config
 $ make # The building-up fails with an up-to-date compiler to work on an old kernel version.
-'''
+```
 Under the same environment and with same commands, I try to build up kernel v4.17.3. It succeeds.
