@@ -1,8 +1,8 @@
 * For non-class objects, rules same as in C apply: auto variables without initial values will be left uninitialized; non-auto variables without initial values will be initialized by filling them with zeros.
 * For class objects, in the situation that no initializer presented:
-** If this class has a default constructor then use this.
-** If it has some constructors but no default constructor, a compile-time error will occur.
-** If there's no constructor in the class definition, then apply all its data members to these rules recursively.
+  * If this class has a default constructor then use this.
+  * If it has some constructors but no default constructor, a compile-time error will occur.
+  * If there's no constructor in the class definition, then apply all its data members to these rules recursively.
 
 * Put an empty () just after the type name in a new expression, the dynamically-allocated objects will be value-initialized, i.e. to be initialized just as non-auto variables.
 
