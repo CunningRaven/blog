@@ -13,4 +13,4 @@ gcc version 8.1.0 (GCC)
 $ make menuconfig # use default config
 $ make # The building-up fails with an up-to-date compiler to work on an old kernel version.
 ```
-Under the same environment and with same commands, I try to build up kernel v4.17.3. It succeeds.
+Under the same environment and with same commands, I tried to build up kernel v4.17.3. It succeeded.
