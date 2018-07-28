@@ -37,13 +37,13 @@ void Getline(std::istream &istrm, string &str)
 int main(int argc, char *argv[])
 {
   srand(time(NULL));
-  std::list<int> vi;
+  std::vector<int> vi;
   for (int i = 0; i < 20; i++)
     vi.push_back(rand() % RDNBR_RANGE);
   std::ostream_iterator<int> oi(cout, " ");
   std::copy(vi.begin(), vi.end(), oi);
   cout << endl;
-  std::list<int>::iterator viter;
+  std::vector<int>::iterator viter;
   int to_rp, rp_by;
   int i;
   string str;

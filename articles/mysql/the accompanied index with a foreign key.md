@@ -1,11 +1,11 @@
 When a foreign key is added, the database server will generate an accompanied index of the same column synchronously. It would not delete this accompanied index to drop the foreign key.
 
-*Syntax to add a foreign key:
+* Syntax to add a foreign key:
 ```SQL
 ALTER TABLE altered_table ADD FOREIGN KEY key_name (constrained_column) REFERENCES referenced_table (referenced_name);
 ```
 
-*Syntax to drop a foreign key:
+* Syntax to drop a foreign key:
 ```SQL
 ALTER TABLE altered_table DROP FOREIGN KEY key_name;
 ```
