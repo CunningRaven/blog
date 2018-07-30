@@ -3,11 +3,17 @@
 
 Content:
 
+* programming tools
+  * [common git commands.md](https://github.com/CunningRaven/blog/blob/master/articles/programming%20tools/common%20git%20commands.md)
+
 * memorandum
   * [System routines with respect to network programming.md](https://github.com/CunningRaven/blog/blob/master/articles/memorandum/System%20routines%20with%20respect%20to%20network%20programming.md)
 
 * C++
+  * [class inheritance.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/class%20inheritance.md)
+  * [overloaded operators.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/overloaded%20operators.md)
   * [example: the right way to use string stream.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/example:%20the%20right%20way%20to%20use%20string%20stream.md)
+  * [templates.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/templates.md)
   * [example: the right way to use file stream.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/example:%20the%20right%20way%20to%20use%20file%20stream.md)
   * [initialization in C++.md](https://github.com/CunningRaven/blog/blob/master/articles/C++/initialization%20in%20C++.md)
 
